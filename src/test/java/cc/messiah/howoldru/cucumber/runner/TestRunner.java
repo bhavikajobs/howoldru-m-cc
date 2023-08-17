@@ -9,15 +9,13 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/resources/featurefile",
-        glue="cc/messiah/howoldru/cucumber",
+        glue = "cc/messiah/howoldru/cucumber",
         tags = " @smoke",
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
                 "json:target/RunCuke/cucumber.json"}
 
 )
-
-
 public class TestRunner {
     @AfterClass
     public static void setUp() {

@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5215595800,
+              "duration": 2429877500,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 15,
+        "line": 14,
         "name": "User should get their age with valid details",
         "description": "",
         "id": "homepage-test;user-should-get-their-age-with-valid-details;;2",
         "after": [
           {
             "result": {
-              "duration": 738952700,
+              "duration": 591356200,
               "status": "passed"
             },
             "match": {
@@ -34,22 +34,22 @@
         "steps": [
           {
             "result": {
-              "duration": 157033800,
+              "duration": 84967100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 216293100,
+              "duration": 115202600,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I enter name \"John\"",
             "match": {
               "arguments": [
@@ -67,10 +67,10 @@
           },
           {
             "result": {
-              "duration": 126708900,
+              "duration": 53494700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I enter date of birth \"05/08/2000\"",
             "match": {
               "arguments": [
@@ -88,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 105109200,
+              "duration": 45944700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -100,10 +100,10 @@
           },
           {
             "result": {
-              "duration": 690075000,
+              "duration": 592190300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I should see to greeting text \"John\"",
             "match": {
               "arguments": [
@@ -121,10 +121,10 @@
           },
           {
             "result": {
-              "duration": 39966400,
+              "duration": 15146400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I should see to greeting age \"23\"",
             "match": {
               "arguments": [
@@ -152,7 +152,7 @@
         "before": [
           {
             "result": {
-              "duration": 2732396200,
+              "duration": 1485046800,
               "status": "passed"
             },
             "match": {
@@ -160,14 +160,14 @@
             }
           }
         ],
-        "line": 16,
+        "line": 15,
         "name": "User should get their age with valid details",
         "description": "",
         "id": "homepage-test;user-should-get-their-age-with-valid-details;;3",
         "after": [
           {
             "result": {
-              "duration": 721690600,
+              "duration": 595652700,
               "status": "passed"
             },
             "match": {
@@ -180,22 +180,22 @@
         "steps": [
           {
             "result": {
-              "duration": 30100,
+              "duration": 25300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 184582600,
+              "duration": 58113900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I enter name \"Messi\"",
             "match": {
               "arguments": [
@@ -213,10 +213,10 @@
           },
           {
             "result": {
-              "duration": 130904400,
+              "duration": 41417900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I enter date of birth \"07/09/1980\"",
             "match": {
               "arguments": [
@@ -234,10 +234,10 @@
           },
           {
             "result": {
-              "duration": 110783000,
+              "duration": 37758200,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -246,10 +246,10 @@
           },
           {
             "result": {
-              "duration": 627678700,
+              "duration": 556923300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I should see to greeting text \"Messi\"",
             "match": {
               "arguments": [
@@ -267,10 +267,10 @@
           },
           {
             "result": {
-              "duration": 41351200,
+              "duration": 14284600,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I should see to greeting age \"42\"",
             "match": {
               "arguments": [
@@ -298,7 +298,7 @@
         "before": [
           {
             "result": {
-              "duration": 2478522000,
+              "duration": 1470663700,
               "status": "passed"
             },
             "match": {
@@ -306,14 +306,14 @@
             }
           }
         ],
-        "line": 17,
+        "line": 16,
         "name": "User should get their age with valid details",
         "description": "",
         "id": "homepage-test;user-should-get-their-age-with-valid-details;;4",
         "after": [
           {
             "result": {
-              "duration": 742946900,
+              "duration": 595173200,
               "status": "passed"
             },
             "match": {
@@ -326,22 +326,22 @@
         "steps": [
           {
             "result": {
-              "duration": 56600,
+              "duration": 12600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 224607600,
+              "duration": 56724000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I enter name \"Sima\"",
             "match": {
               "arguments": [
@@ -359,10 +359,10 @@
           },
           {
             "result": {
-              "duration": 110889200,
+              "duration": 41878600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I enter date of birth \"15/04/1978\"",
             "match": {
               "arguments": [
@@ -380,10 +380,10 @@
           },
           {
             "result": {
-              "duration": 90531400,
+              "duration": 37019300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -392,10 +392,10 @@
           },
           {
             "result": {
-              "duration": 618588200,
+              "duration": 563769900,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I should see to greeting text \"Sima\"",
             "match": {
               "arguments": [
@@ -413,10 +413,10 @@
           },
           {
             "result": {
-              "duration": 35955500,
+              "duration": 14393900,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I should see to greeting age \"45\"",
             "match": {
               "arguments": [
@@ -444,7 +444,7 @@
         "before": [
           {
             "result": {
-              "duration": 2427607300,
+              "duration": 1419327800,
               "status": "passed"
             },
             "match": {
@@ -452,14 +452,14 @@
             }
           }
         ],
-        "line": 18,
+        "line": 17,
         "name": "User should get their age with valid details",
         "description": "",
         "id": "homepage-test;user-should-get-their-age-with-valid-details;;5",
         "after": [
           {
             "result": {
-              "duration": 757613800,
+              "duration": 599091600,
               "status": "passed"
             },
             "match": {
@@ -472,22 +472,22 @@
         "steps": [
           {
             "result": {
-              "duration": 21500,
+              "duration": 11600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 174862400,
+              "duration": 58483500,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I enter name \"Mira\"",
             "match": {
               "arguments": [
@@ -505,10 +505,10 @@
           },
           {
             "result": {
-              "duration": 117995400,
+              "duration": 40099900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I enter date of birth \"15/04/1908\"",
             "match": {
               "arguments": [
@@ -526,10 +526,10 @@
           },
           {
             "result": {
-              "duration": 91592000,
+              "duration": 37310100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -538,10 +538,10 @@
           },
           {
             "result": {
-              "duration": 610014200,
+              "duration": 546406800,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I should see to greeting text \"Mira\"",
             "match": {
               "arguments": [
@@ -559,10 +559,10 @@
           },
           {
             "result": {
-              "duration": 36447400,
+              "duration": 13113100,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I should see to greeting age \"115\"",
             "match": {
               "arguments": [
@@ -590,7 +590,7 @@
         "before": [
           {
             "result": {
-              "duration": 2264579900,
+              "duration": 1472823300,
               "status": "passed"
             },
             "match": {
@@ -598,14 +598,14 @@
             }
           }
         ],
-        "line": 28,
+        "line": 27,
         "name": "User should get error message with invalid details",
         "description": "",
         "id": "homepage-test;user-should-get-error-message-with-invalid-details;;2",
         "after": [
           {
             "result": {
-              "duration": 735858300,
+              "duration": 591840300,
               "status": "passed"
             },
             "match": {
@@ -618,22 +618,22 @@
         "steps": [
           {
             "result": {
-              "duration": 31800,
+              "duration": 15000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 166685100,
+              "duration": 55419800,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "I enter name \"Sima\"",
             "match": {
               "arguments": [
@@ -651,10 +651,10 @@
           },
           {
             "result": {
-              "duration": 122102900,
+              "duration": 42861000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "I enter date of birth \"15/04/1808\"",
             "match": {
               "arguments": [
@@ -672,10 +672,10 @@
           },
           {
             "result": {
-              "duration": 103355800,
+              "duration": 37078900,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -684,10 +684,10 @@
           },
           {
             "result": {
-              "duration": 166875100,
+              "duration": 326948400,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "I should see the error message \"you are too old to use it\"",
             "match": {
               "arguments": [
@@ -715,7 +715,7 @@
         "before": [
           {
             "result": {
-              "duration": 2380096800,
+              "duration": 1461968700,
               "status": "passed"
             },
             "match": {
@@ -723,14 +723,14 @@
             }
           }
         ],
-        "line": 29,
+        "line": 28,
         "name": "User should get error message with invalid details",
         "description": "",
         "id": "homepage-test;user-should-get-error-message-with-invalid-details;;3",
         "after": [
           {
             "result": {
-              "duration": 758774200,
+              "duration": 587679600,
               "status": "passed"
             },
             "match": {
@@ -743,22 +743,22 @@
         "steps": [
           {
             "result": {
-              "duration": 55100,
+              "duration": 13100,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 165686700,
+              "duration": 57634400,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "I enter name \"Mira\"",
             "match": {
               "arguments": [
@@ -776,10 +776,10 @@
           },
           {
             "result": {
-              "duration": 120119100,
+              "duration": 40020100,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "I enter date of birth \"15/03/2026\"",
             "match": {
               "arguments": [
@@ -797,10 +797,10 @@
           },
           {
             "result": {
-              "duration": 91985400,
+              "duration": 37198500,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -809,10 +809,10 @@
           },
           {
             "result": {
-              "duration": 365270900,
+              "duration": 338666200,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "I should see the error message \"your birthday must be in the past\"",
             "match": {
               "arguments": [
@@ -840,7 +840,7 @@
         "before": [
           {
             "result": {
-              "duration": 2568631700,
+              "duration": 1246988500,
               "status": "passed"
             },
             "match": {
@@ -848,14 +848,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 29,
         "name": "User should get error message with invalid details",
         "description": "",
         "id": "homepage-test;user-should-get-error-message-with-invalid-details;;4",
         "after": [
           {
             "result": {
-              "duration": 696377800,
+              "duration": 590640500,
               "status": "passed"
             },
             "match": {
@@ -868,22 +868,22 @@
         "steps": [
           {
             "result": {
-              "duration": 29200,
+              "duration": 13000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 172285200,
+              "duration": 72542200,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "I enter name \"Silvia\"",
             "match": {
               "arguments": [
@@ -901,10 +901,10 @@
           },
           {
             "result": {
-              "duration": 120791300,
+              "duration": 47331900,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "I enter date of birth \"31/02/2000\"",
             "match": {
               "arguments": [
@@ -922,10 +922,10 @@
           },
           {
             "result": {
-              "duration": 92482500,
+              "duration": 39499800,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -934,10 +934,10 @@
           },
           {
             "result": {
-              "duration": 377913000,
+              "duration": 330541200,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "I should see the error message \"wrong date\"",
             "match": {
               "arguments": [
@@ -965,7 +965,7 @@
         "before": [
           {
             "result": {
-              "duration": 2603833900,
+              "duration": 1448154400,
               "status": "passed"
             },
             "match": {
@@ -973,14 +973,14 @@
             }
           }
         ],
-        "line": 31,
+        "line": 30,
         "name": "User should get error message with invalid details",
         "description": "",
         "id": "homepage-test;user-should-get-error-message-with-invalid-details;;5",
         "after": [
           {
             "result": {
-              "duration": 749601500,
+              "duration": 578930500,
               "status": "passed"
             },
             "match": {
@@ -993,22 +993,22 @@
         "steps": [
           {
             "result": {
-              "duration": 22500,
+              "duration": 13600,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "I am on homepage",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "HomePageSteps.iAmOnHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 141108900,
+              "duration": 62687600,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "I enter name \"Tom\"",
             "match": {
               "arguments": [
@@ -1026,10 +1026,10 @@
           },
           {
             "result": {
-              "duration": 93019100,
+              "duration": 47896400,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "I enter date of birth \"29/02/1982\"",
             "match": {
               "arguments": [
@@ -1047,10 +1047,10 @@
           },
           {
             "result": {
-              "duration": 90789900,
+              "duration": 40752100,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "I click on submit button",
             "match": {
               "location": "HomePageSteps.iClickOnSubmitButton()"
@@ -1059,10 +1059,10 @@
           },
           {
             "result": {
-              "duration": 357528700,
+              "duration": 336222300,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "I should see the error message \"wrong date\"",
             "match": {
               "arguments": [
