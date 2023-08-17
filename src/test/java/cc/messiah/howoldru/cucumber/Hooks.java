@@ -18,7 +18,7 @@ public class Hooks extends Utility {
 
     @After
     public void tearDown(Scenario scenario) {
-        if (scenario.isFailed()){
+        if (scenario.isFailed()) {
             String screeShotPath = Utility.getScreenshot(driver, scenario.getName().replace(" ", "_"));
             try {
                 Reporter.addScreenCaptureFromPath(screeShotPath);

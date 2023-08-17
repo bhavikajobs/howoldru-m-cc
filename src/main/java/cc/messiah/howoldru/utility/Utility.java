@@ -18,7 +18,7 @@ public class Utility extends ManageBrowser {
     /*Utility Class extends to ManageBrowser for the driver to finding locators
      *All common methods are fixed in the utility Class.*/
 
-     /*
+    /*
      * This method will generate random number
      */
     public int generateRandomNumber() {
@@ -266,6 +266,7 @@ public class Utility extends ManageBrowser {
     }
 
 //***************************** Is Display Methods **********************************************//
+
     /**
      * This method will verify that element is displayed
      */

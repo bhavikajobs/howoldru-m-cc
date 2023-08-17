@@ -4,7 +4,6 @@ package cc.messiah.howoldru.pages;
 import cc.messiah.howoldru.utility.Utility;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -36,13 +35,13 @@ public class HomePage extends Utility {
 
     //By helpBirthday = By.id("help_birthday");
 
-    public void enterYourName( String name) {
-        sendTextToElement(nameField,name);
+    public void enterYourName(String name) {
+        sendTextToElement(nameField, name);
         log.info("Enter your name : " + nameField.toString());
     }
 
     public void enterDateOfBirth(String dateOFBirth) {
-        sendTextToElement(dateOfBirthField,dateOFBirth);
+        sendTextToElement(dateOfBirthField, dateOFBirth);
         log.info("Enter Date Of Birth : " + dateOfBirthField.toString());
     }
 

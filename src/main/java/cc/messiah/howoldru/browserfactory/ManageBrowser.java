@@ -1,4 +1,5 @@
 package cc.messiah.howoldru.browserfactory;
+
 import cc.messiah.howoldru.propertyreader.PropertyReader;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +20,7 @@ public class ManageBrowser {
         PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/java/resources/propertiesfile/log4j2.properties");
     }
 
-    public void selectBrowser(String browser){
+    public void selectBrowser(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
@@ -35,8 +36,8 @@ public class ManageBrowser {
         driver.get(baseUrl);
     }
 
-    public void closeBrowser(){
-        if (driver!= null){
+    public void closeBrowser() {
+        if (driver != null) {
             driver.quit();
         }
     }
