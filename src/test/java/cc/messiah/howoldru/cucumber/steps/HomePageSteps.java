@@ -3,11 +3,17 @@ package cc.messiah.howoldru.cucumber.steps;
 import cc.messiah.howoldru.pages.HomePage;
 import cc.messiah.howoldru.pages.ResultPage;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.testng.Assert;
 
 public class HomePageSteps {
+
+    @Given("^I am on homepage$")
+    public void iAmOnHomepage() {
+    }
+
     @When("^I enter name \"([^\"]*)\"$")
     public void iEnterName(String name) {
         new HomePage().enterYourName(name);
@@ -41,4 +47,5 @@ public class HomePageSteps {
     public void iShouldSeeTheErrorMessage(String errorMessage) {
         Assert.assertEquals(errorMessage, new HomePage().getErrorMessage(), "Error message not displayed");
     }
+
 }

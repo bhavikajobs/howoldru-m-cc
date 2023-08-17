@@ -16,8 +16,6 @@ import org.junit.runner.RunWith;
                 "json:target/RunCuke/cucumber.json"}
 
 )
-
-
 public class TestRunner {
     @AfterClass
     public static void setUp() {
