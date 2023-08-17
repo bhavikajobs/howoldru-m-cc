@@ -1,0 +1,1102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5215595800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should get their age with valid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-their-age-with-valid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 738952700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157033800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216293100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter name \"John\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126708900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter date of birth \"05/08/2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/08/2000",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105109200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690075000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see to greeting text \"John\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 31
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingText(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39966400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see to greeting age \"23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 30
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingAge(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2732396200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should get their age with valid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-their-age-with-valid-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 721690600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184582600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter name \"Messi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Messi",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130904400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter date of birth \"07/09/1980\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07/09/1980",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110783000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 627678700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see to greeting text \"Messi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Messi",
+                  "offset": 31
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingText(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41351200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see to greeting age \"42\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "42",
+                  "offset": 30
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingAge(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2478522000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should get their age with valid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-their-age-with-valid-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 742946900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224607600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter name \"Sima\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sima",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110889200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter date of birth \"15/04/1978\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15/04/1978",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90531400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618588200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see to greeting text \"Sima\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sima",
+                  "offset": 31
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingText(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35955500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see to greeting age \"45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 30
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingAge(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2427607300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should get their age with valid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-their-age-with-valid-details;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 757613800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174862400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter name \"Mira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mira",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117995400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter date of birth \"15/04/1908\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15/04/1908",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91592000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610014200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see to greeting text \"Mira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mira",
+                  "offset": 31
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingText(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36447400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see to greeting age \"115\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "115",
+                  "offset": 30
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeToGreetingAge(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2264579900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User should get error message with invalid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-error-message-with-invalid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 735858300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166685100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter name \"Sima\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sima",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122102900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter date of birth \"15/04/1808\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15/04/1808",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103355800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166875100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the error message \"you are too old to use it\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "you are too old to use it",
+                  "offset": 32
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2380096800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User should get error message with invalid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-error-message-with-invalid-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 758774200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165686700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter name \"Mira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mira",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120119100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter date of birth \"15/03/2026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15/03/2026",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91985400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365270900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the error message \"your birthday must be in the past\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "your birthday must be in the past",
+                  "offset": 32
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2568631700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "User should get error message with invalid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-error-message-with-invalid-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 696377800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172285200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter name \"Silvia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silvia",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120791300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter date of birth \"31/02/2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "31/02/2000",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92482500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377913000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the error message \"wrong date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wrong date",
+                  "offset": 32
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2603833900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User should get error message with invalid details",
+        "description": "",
+        "id": "homepage-test;user-should-get-error-message-with-invalid-details;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 749601500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141108900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter name \"Tom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.iEnterName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93019100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter date of birth \"29/02/1982\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29/02/1982",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.iEnterDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90789900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on submit button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357528700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the error message \"wrong date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wrong date",
+                  "offset": 32
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage Test",
+    "description": "As user I want to calculate my age",
+    "id": "homepage-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
